@@ -12,7 +12,9 @@ html, body {
   }
 
   #score-container {
-    background-color: aquamarine;
+    /*background-color: rgb(128, 255, 212);
+    */
+    background-color: rgb(104, 175, 252); 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,14 +42,14 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(75, 66, 94);
     grid-column: 2/3;
     grid-row: 2/3;
   }
 
   .hands {
     height: 100px;
-    background-color: #b8937a;
+    background-color: rgb(49, 208, 165);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,19 +61,30 @@ html, body {
     height: 50px;
     width: 50px;
     color: white;
-    background-color: #fcc006;
+    background-color: rgb(75, 66, 94);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
+/* idea for later - where the active button has the inversed colors as the non active ones
+  .activecircle {
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: #ca0147;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+*/
   .left-arrow {
     width: 0;
     height: 0;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #ca0147;
+    border-right: 15px solid rgb(104, 175, 252);
     margin: 2rem;
     margin-right: 35px;
   }
@@ -81,7 +94,7 @@ html, body {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-bottom: 15px solid #ca0147;
+    border-bottom: 15px solid rgb(104, 175, 252);
     margin: 2rem;
     margin-bottom: 35px;
   }
@@ -91,7 +104,7 @@ html, body {
     height: 0;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #ca0147;
+    border-left: 15px solid rgb(104, 175, 252);
     margin: 2rem;
     margin-left: 35px;
   }
@@ -101,23 +114,23 @@ html, body {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid #ca0147;
+    border-top: 15px solid rgb(104, 175, 252);
     margin: 2rem;
     margin-top: 35px;
   }
 
   .active-left {
-    border-right: 15px solid #c1f80a;
+    border-right: 15px solid rgb(143, 186, 6);
   }
 
   .active-up {
-    border-bottom: 15px solid #c1f80a;
+    border-bottom: 15px solid rgb(143, 186, 6);
   }
 
   .active-right {
-    border-left: 15px solid #c1f80a;
+    border-left: 15px solid rgb(143, 186, 6);
   }
 
   .active-down {
-    border-top: 15px solid #c1f80a;
+    border-top: 15px solid rgb(143, 186, 6);
   }
