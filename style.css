@@ -12,7 +12,7 @@ html, body {
   }
 
   #score-container {
-    background-color: aquamarine;
+    background-color: rgb(150,233,124);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,20 +34,21 @@ html, body {
     display: block;
     grid-column: 1/2;
     grid-row: 2/3;
+    background-color: rgb(113,31,134);
   }
 
   #kinect-window {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(81,183,216);
     grid-column: 2/3;
     grid-row: 2/3;
   }
 
   .hands {
     height: 100px;
-    background-color: #b8937a;
+    background-color:rgb(81,183,216);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +60,7 @@ html, body {
     height: 50px;
     width: 50px;
     color: white;
-    background-color: #fcc006;
+    background-color: rgb(255, 191, 0);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -107,17 +108,16 @@ html, body {
   }
 
   .active-left {
-    border-right: 15px solid #c1f80a;
+    border-right: 15px solid rgb(21,81,38);
   }
 
   .active-up {
-    border-bottom: 15px solid #c1f80a;
+    border-bottom: 15px solid rgb(21,81,38);
   }
-
   .active-right {
-    border-left: 15px solid #c1f80a;
+    border-left: 15px solid rgb(21,81,38);
   }
 
   .active-down {
-    border-top: 15px solid #c1f80a;
+    border-top: 15px solid rgb(21,81,38)
   }
